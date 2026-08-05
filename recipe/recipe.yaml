@@ -2,7 +2,7 @@ schema_version: 1
 
 context:
   name: nanoarrow
-  version: "0.8.0"
+  version: "0.9.0"
 
 package:
   name: ${{ name|lower }}
@@ -10,7 +10,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/nanoarrow-${{ version }}.tar.gz
-  sha256: aa63e01e799380ec4f8adab88f4faac8d27bfb725fe1009fe73d7ce4efd9f7f6
+  sha256: 1ce15bbed8532839347faa78824c5dbd3769bff60661003e34c6fba5dd881bd3
 
 build:
   number: 0
